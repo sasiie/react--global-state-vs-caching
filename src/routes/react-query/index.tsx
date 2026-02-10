@@ -6,6 +6,7 @@ import useGetPokemon from "@/hooks/use-get-pokemon";
 import { createFileRoute } from "@tanstack/react-router";
 import { LoaderCircleIcon } from "lucide-react";
 
+
 export const Route = createFileRoute("/react-query/")({
   component: RouteComponent,
 });
